@@ -15,6 +15,7 @@ public class XMLServiceClient {
 
         // обращаемся к веб-сервису и выводим результат в консоль
         GetUniversityResponse.Return university = service.getUniversity();
+        Student student = service.getStudent();
         System.out.println();
     }
 }
